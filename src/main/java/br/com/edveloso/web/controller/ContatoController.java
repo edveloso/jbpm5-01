@@ -1,4 +1,4 @@
-package br.com.petrobras.web.controller;
+package br.com.edveloso.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import br.com.petrobras.business.entity.Contato;
-import br.com.petrobras.business.persistence.IContatoDAO;
+import br.com.edveloso.business.entity.Contato;
+import br.com.edveloso.business.persistence.IContatoDAO;
 
 
 @Controller(value="/contato/**")

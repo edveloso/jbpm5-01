@@ -1,4 +1,4 @@
-package br.com.petrobras.business.entity;
+package br.com.edveloso.business.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

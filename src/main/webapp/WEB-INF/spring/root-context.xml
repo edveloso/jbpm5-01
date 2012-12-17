@@ -27,7 +27,7 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 		<property name="dataSource" ref="dsname" />
 		<property name="packagesToScan">
 			<list>
-				<value>br.com.petrobras.business.entity</value>
+				<value>br.com.edveloso.business.entity</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">

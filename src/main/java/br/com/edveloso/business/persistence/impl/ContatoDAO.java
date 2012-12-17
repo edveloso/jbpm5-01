@@ -1,4 +1,4 @@
-package br.com.petrobras.business.persistence.impl;
+package br.com.edveloso.business.persistence.impl;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.stereotype.Repository;
 
-import br.com.petrobras.business.entity.Contato;
-import br.com.petrobras.business.persistence.IContatoDAO;
+import br.com.edveloso.business.entity.Contato;
+import br.com.edveloso.business.persistence.IContatoDAO;
 
 @Repository
 public class ContatoDAO extends HibernateDaoSupport implements IContatoDAO<Contato> {
